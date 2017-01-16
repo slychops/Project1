@@ -18,6 +18,7 @@
 
 <body>
 
+<!-- Dealing with a jumbotron -->
 	<div class="container">
   	<div class="jumbotron">
 			<h1>Jumbotron text    </h1>
@@ -25,6 +26,16 @@
   	</div>
   	<p> The jumbotron above is nested inside the same container as this paragraph is</p>
 	</div>
+	<hr width=100% size="1">
+	
+	<!-- Info about a jedi cat -->
+	<div class="introduction">
+	<h3> Intro </h3>
+	<img width = 10% src="images/cat.jpg">
+		<p>Hi, I am a jedi cat</p>
+		<p> Lucas ipsum dolor sit amet darth lando wedge twi'lek darth utapau qui-gonn solo amidala antilles. Darth darth utapau solo jango darth aayla antilles jango. Wampa bothan maul aayla moff. Anakin ahsoka grievous kessel solo maul. Darth mothma darth lando luuke. Cade yavin darth grievous gamorrean. Vader mandalorians kessel obi-wan ben boba organa. Kit mon ponda antilles lando jabba mon padmé. Lars secura darth ackbar jinn boba c-3p0. Darth darth mace antilles darth. Yoda wampa darth droid darth. C-3p0 mace organa coruscant darth lars.</p><br />
+	</div>
+	<hr width=100% size="1">
 
 	<h1> Hi </h1>
 	<div class="row">
@@ -38,27 +49,50 @@
 		<div class="col-sm-4"><div class="panel panel-default"><div class="panel-body">Price 1</div></div></div>
 	</div>
 
-	<div class="container">
-		<p> Striped table below - This text is inside a container</p>
-		<table class="table table-striped">
-			<thead>
-				<tr>
-					<th>Column 1</th>
-					<th>Column 2</th>
-					<th>Column 3</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>Date</td>
-					<td>Price</td>
-					<td>Item</td>
-				</tr>
-			</tbody>
-		</table>
+	
+	<div class="panel panel-default"><div class="panel-body"> Panel body </div></div>	
+	<div class="row">
+		<div class="col-sm-12" style="background-color: #FAFAFA">
+			<div class="container">
+				<p> Should not have inline styles like this background style </p>
+				<p> Striped table below - This text is inside a container</p>
+				<table class="table table-striped">
+					<thead>
+						<tr>
+							<th>Column 1</th>
+							<th>Column 2</th>
+							<th>Column 3</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Date</td>
+							<td>Price</td>
+							<td>Item</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
 	</div>
 
-</body>
+<!-- Setting up an accordion -->
+	<div class="faq">
+		<h2> F.A.Q </h2>
+		<div id="question1" class="accordion">
+			<h5>What colour was Catties first lightsaber? </h5>
+		</div>
+		<div id="answer1" class="answer">
+			<p>Blue, although Cattie would tell you green because he is colour blind. Lucas ipsum dolor sit amet mimbanite bria b4-d4 clawdite ben beru solo kanos jaina jerec. Ima-gun xappyh yuvernian organa di theelin jubnuk vurk shadda. -1b derlin jinn fel ismaren bib kastolar shmi ackbar. Yavin vima-da-boda sith terrik paploo darth vau cadavine moff. Sullustan ackbar ben wyl t88. Atrivis lepi plagueis kowakian ebe moddell gallia. Vagaari lah gungan utapaun gamorr. Snivvian iktotchi hutta raynar. Ors plo kalarba kobok rahn ig-88 koon crynyd emtrey. Gen'dai sanyassan mothma moff kenobi zhell. </p>
+			<!-- <span class="readmore"> Read more... </span> -->
+			<span> Read more <button class="readmore">... </button></span>
+			<p class="morecontent"> Owen mara corran nute zam colton caedus freedon. Myneyrsh wicket rex yavin boss letaki watto veila. Vader nute watto bothan secura togruta bothan kit. Nadd skywalker anzati wessell lepi skywalker iblis kota dooku. Grievous zam boz moff darth solo arcona. Tano rishi rukh darpa. Dak gallia rukh dor shmi jabiimas saffa kenobi. Kast lumiya kalee nagai dooku sykes depa. Nautolan secura ki-adi-mundi dormé. Ishi owen ka owen. Daala saffa aayla jagged. Triclops tatooine cb-99 yuzzem dalonbian jin'ha. Tapani endor gavyn y'bith x'ting. </p>
+		</div>
+		<br /><br /><br />
+	</div>
 
+	<script type="text/javascript" src="js/custom.js"></script>
+
+</body>
 
 </html>

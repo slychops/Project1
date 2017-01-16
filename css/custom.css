@@ -1,11 +1,41 @@
 /*Custom CSS*/
 
 .jumbotron{
-	background-color: #000fff;
+	background: #3B3131 url("../images/surf.jpg") no-repeat center center;
 }	
 .jumbotron h1{
-	color: #999;
+	color: #B6B6B4;
 }
 .jumbotron p{
-	color: #fff;
+	color: #E0FFFF;
  }
+
+.introduction img{
+	float:left;
+	border: 2px #888 solid;
+	border-radius: 180px;
+	margin-right: 20px;
+	margin-left : 5%;
+}
+
+.introduction {
+	float:left;
+}
+.introduction h3{
+	margin-left: 7%;
+}
+.introduction p{
+	width:90%;
+}
+
+.faq {
+	margin-left: 5%;
+}
+
+#answer1 {
+	display:none;
+}
+
+.readmore {
+	background.color: green;
+}
