@@ -1,0 +1,11 @@
+/*Custom CSS*/
+
+.jumbotron{
+	background-color: #000fff;
+}	
+.jumbotron h1{
+	color: #999;
+}
+.jumbotron p{
+	color: #fff;
+ }
