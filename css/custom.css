@@ -1,5 +1,12 @@
 /*Custom CSS*/
 
+html {
+	height: 100%;
+}
+body {
+	min-height: 100%;
+}
+
 .jumbotron{
 	background: #3B3131 url("../images/surf.jpg") no-repeat center center;
 }	
@@ -36,6 +43,22 @@
 	display:none;
 }
 
-.readmore {
+button {
 	background.color: green;
 }
+
+
+#firstImg {
+	height: 400px;
+	background: #fff url("../images/cat_fight1.jpg") no-repeat center center;
+	background-size: cover;
+	border-radius: 800px;
+}
+#kittyplacement2 {
+	height: 400px;
+	background: #fff url("../images/JEDIkitty.jpg") no-repeat center center;
+	background-size: cover;
+	border-radius: 800px;
+}
+
+
